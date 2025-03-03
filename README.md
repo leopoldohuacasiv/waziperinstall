@@ -79,6 +79,17 @@ user: nombredeusariobasedatos
 password: contraseñabasedatos
 database: nombrededatos
 ```
+o directamente desde configuración
+```js
+ location / {
+      proxy_pass http://localhost:8000; #whatever port your app runs on
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection 'upgrade';
+      proxy_set_header Host $host;
+      proxy_cache_bypass $http_upgrade;
+  }    
+```
 
 ## 11. Configuración del sitio web API
 - En **Website**, acceder a la configuración del sitio `api.tudominio.com`
