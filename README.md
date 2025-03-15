@@ -95,7 +95,7 @@ o directamente desde configuración
 - En **Website**, acceder a la configuración del sitio `api.tudominio.com`
 - Ir a **Reverse proxy** y agregar:
   - Proxy name: `Waserver`
-  - Target URL: `https://127.0.0.1:9000`
+  - Target URL: `http://127.0.0.1:9000`
 
 ## 12. Redireccionamiento al dominio principal
 - En **Website**, acceder a **URL REWRITE** e insertar:
