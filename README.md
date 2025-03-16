@@ -129,5 +129,9 @@ pm2 save
 
 ### Fin de la instalación
 
-**Nota:** Para adquirir el instalador, contacta al WhatsApp +51936450940
+## Dato Extra
+
+Para descargar el código fuente accede al grupo de whatsapp: [Sistemas con WhatsApp](https://chat.whatsapp.com/HR9PZZLqsRHAP8ZA8s0H5G)
+
+Y escribe la palabra clave en el chat del grupo "waziperglite" para que el BOT te comparta el link de descarga
 
